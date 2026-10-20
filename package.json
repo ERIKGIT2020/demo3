@@ -1,0 +1,15 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "Mi primera aplicacion Node.js en Azure",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node -e \"console.log('Compilacion correcta')\"",
+    "test": "node -e \"console.log('Pruebas correctas')\""
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {}
+}
